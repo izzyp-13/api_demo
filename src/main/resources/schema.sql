@@ -1,7 +1,8 @@
-CREATE SCHEMA texas;
-CREATE TABLE IF NOT EXISTS school_district (
+CREATE SCHEMA bank;
+CREATE TABLE IF NOT EXISTS accounts (
      id BIGINT AUTO_INCREMENT PRIMARY KEY,
-     name VARCHAR(255) NOT NULL,
-     superintendent VARCHAR(255),
-     address VARCHAR(255)
+     customer VARCHAR(255) NOT NULL,
+     balance DECIMAL(19, 4) NOT NULL DEFAULT 0,
+     address VARCHAR(255),
+     open_date VARCHAR(255)
 );

@@ -1,5 +1,6 @@
-INSERT INTO school_district (name, superintendent, address)
+INSERT INTO bank_account (customer, balance, address, open_date)
 VALUES
-    ('Buena Vista ISD', 'Jane Smith', '123 Main St'),
-    ('North Valley District', 'John Doe', '456 Oak Ave'),
-    ('Lakeside District', 'Mary Johnson', '789 Pine Rd');
+    ('Israel Sanchez', 1000, '415 North Washington St', '2023-08-12'),
+    ('Maricela Sanchez', 4000, '415 North Washington St', '2022-08-10'),
+    ('Ireland Sanchez', 400, '6615 Brandy Path', '2025-02-21'),
+    ('Salomon Sanchez', 5000, '415 North Washington St', '2000-04-25');
